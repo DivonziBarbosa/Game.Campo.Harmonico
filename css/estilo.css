@@ -1,0 +1,55 @@
+*{margin:0;padding:0;}
+
+html{
+    font-size: 62.5%;
+    font-family:"Arial", sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    background-image: url('../img/fundo.jpg');
+    height: 100%;
+}
+
+#principal{
+    height: 100%;
+    width:100%;
+    background: rgba(255,255,255,.85);
+    margin:0 auto;
+    text-align: center;
+    display: table;
+    font-size: 3em;
+}
+
+#principal p{
+    font-variant: small-caps;
+}
+
+#conteudo{
+    padding: .5em 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#principal h2{
+    font-size: 3em;
+}
+
+#principal .btn{
+    font-size: 1em;
+    border:none;
+    border:.1em solid #000;
+    background: #fff;
+    padding:.1em .1em;
+    margin:0em .1em;
+    color:#000;
+    outline:none;
+}
+
+#resposta{
+
+}
+.novamente{
+    display:none;
+}
